@@ -1,16 +1,35 @@
 <!DOCTYPE html>
    <html>
     <head>
-        <style type="text/css">
-        
-        </style>
+      <style type="text/css">
+        .fullscreen_bg
+              {
+                  position:fixed;
+                  top:0;
+                  left:0;
+                  bottom:0;
+                  right:0;
+                  overflow:hidden;
+                  z-index:-1;
+                  background-size:cover;
+              }
+              .videoproperty
+              {
+                  position:fixed;
+                  width:auto;
+                  height:auto;
+                  min-width:100%;
+                  min-height:100%
+              }
+              h2{color:rgb(255, 255, 255);}
+      </style>
         <title>Bootstrap_Demo_Class(I)</title>
 		<link href="../16-05-2022/BootStrap/BootStrap/Bootstrap_Theory.txt" type="text/css" rel="stylesheet" />
     </head>
     <body>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="background-color:black; color:aqua ; ">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="background-color:rgb(239, 244, 247); color:rgb(60, 24, 121) ; ">
                     Semi-Automatic Rotary Screen Printing Machinehttps://www.indiamart.com › proddetail › rotary-screen...
                     Semi-Automatic Rotary Screen Printing Machine ; Object to be Printed, Fabric ; Type, Flat Bed Screen ; Max Print Area (Inch X Inch), Printing Width - 1800mm.
                     Max Print Area (Inch X Inch): Printing Width - 1...
@@ -20,6 +39,10 @@
                     ₹6,50,000.00
                     rotary printing machine from www.indiamart.com
                     </div>
+                    <div >
+                      <video src="../14-5-22/3.mp4" class="fullscreen_bg" autoplay loop muted></video>
+                      
+                  </div>   
 				
 			</div>
 		</div>
